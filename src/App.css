@@ -1,0 +1,19 @@
+:root{
+  background-color: lightblue;
+}
+.left-container{
+  float:left;
+  height: 100vh;
+  width:40%;
+}
+.right-container{
+  float:left;
+  height:100vh;
+  width:40%;
+}
+.middle-container {
+  float:left;
+}
+h1 {
+  text-align: center;
+}
