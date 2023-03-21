@@ -64,7 +64,7 @@ const APIinfo = () => {
                     <button onClick={() => addBanList(data.breeds[0].name)}>{data.breeds[0].name}</button>
                     <button onClick={() => addBanList(data.breeds[0].weight.imperial)}>{data.breeds[0].weight.imperial} lbs</button>
                     <button onClick={() => addBanList(data.breeds[0].origin)}>{data.breeds[0].origin}</button>
-                    <button onClick={() => addBanList(data.breeds[0].life_span)}>{data.breeds[0].life_span}</button>
+                    <button onClick={() => addBanList(data.breeds[0].life_span)}>{data.breeds[0].life_span} years</button>
                     </div>
                 ) : (<div></div>)}
                 <button onClick={callAPI}>Discover!</button>
